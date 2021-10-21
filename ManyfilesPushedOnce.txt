@@ -1,0 +1,274 @@
+PUSHINGMANYFILES
+..........
+
+Microsoft Windows [Version 10.0.19041.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\mukund>cd C:\Users\mukund\Desktop\Help
+
+C:\Users\mukund\Desktop\Help>git clone https://github.com/mukund-k/githubPracticalTest.git
+Cloning into 'githubPracticalTest'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 15 (delta 2), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (15/15), done.
+Resolving deltas: 100% (2/2), done.
+
+C:\Users\mukund\Desktop\Help>git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   ../WhatTheHeck (new commits, modified content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.bash_history
+        ../../.gitconfig
+        ../../.openjfx/
+        ../../.readyapi/
+        ../../.soapui/
+        ../../.viminfo
+        ../../3D Objects/
+        ../../AppData/
+        ../../Contacts/
+        ./
+        ../Webex.lnk
+        ../backup data.lnk
+        ../desktop.ini
+        ../sakila-data.sql
+        ../sakila-db/
+        ../sakila-schema.sql
+        ../sakila.mwb
+        ../test_db-master/
+        ../../Documents/
+        ../../Downloads/
+        ../../Favorites/
+        ../../IntelGraphicsProfiles/
+        ../../Links/
+        ../../MicrosoftEdgeBackups/
+        ../../Music/
+        ../../NTUSER.DAT
+        ../../NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        ../../NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../Saved Games/
+        ../../Searches/
+        ../../SecondProjectAlonePractice/
+        ../../Videos/
+        ../../default-soapui-workspace.xml
+        ../../githubPracticalTest/
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.ini
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\mukund\Desktop\Help>cd C:\Users\mukund\Desktop\
+
+C:\Users\mukund\Desktop>git add Agama.txt
+fatal: pathspec 'Agama.txt' did not match any files
+
+C:\Users\mukund\Desktop>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 1863-FF1A
+
+ Directory of C:\Users\mukund\Desktop
+
+10/21/2021  06:30 AM    <DIR>          .
+10/21/2021  06:30 AM    <DIR>          ..
+07/02/2021  03:44 PM             1,083 backup data.lnk
+10/21/2021  06:31 AM    <DIR>          Help
+10/06/2021  04:46 PM         3,351,745 sakila-data.sql
+10/06/2021  03:25 PM    <DIR>          sakila-db
+10/06/2021  04:46 PM            24,254 sakila-schema.sql
+10/06/2021  04:46 PM            40,093 sakila.mwb
+10/06/2021  02:46 PM    <DIR>          test_db-master
+09/22/2021  04:00 PM             1,468 Webex.lnk
+10/21/2021  04:39 AM    <DIR>          WhatTheHeck
+               5 File(s)      3,418,643 bytes
+               6 Dir(s)  782,711,582,720 bytes free
+
+C:\Users\mukund\Desktop>cd Help
+
+C:\Users\mukund\Desktop\Help>git add Agma.txt
+fatal: pathspec 'Agma.txt' did not match any files
+
+C:\Users\mukund\Desktop\Help>git add Agama.txt
+fatal: pathspec 'Agama.txt' did not match any files
+
+C:\Users\mukund\Desktop\Help>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 1863-FF1A
+
+ Directory of C:\Users\mukund\Desktop\Help
+
+10/21/2021  06:31 AM    <DIR>          .
+10/21/2021  06:31 AM    <DIR>          ..
+10/21/2021  06:31 AM    <DIR>          githubPracticalTest
+               0 File(s)              0 bytes
+               3 Dir(s)  782,711,382,016 bytes free
+
+C:\Users\mukund\Desktop\Help>cd ..
+
+C:\Users\mukund\Desktop>cd Help\githubPracticalTest
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 1863-FF1A
+
+ Directory of C:\Users\mukund\Desktop\Help\githubPracticalTest
+
+10/21/2021  06:31 AM    <DIR>          .
+10/21/2021  06:31 AM    <DIR>          ..
+10/21/2021  06:31 AM               135 Agama.txt
+10/21/2021  06:31 AM                35 PracticeGithub.txt
+               2 File(s)            170 bytes
+               2 Dir(s)  782,711,083,008 bytes free
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git add Agama.txt
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git commit -m "test changes"
+[main 3336821] test changes
+ 1 file changed, 2 insertions(+)
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 325 bytes | 325.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mukund-k/githubPracticalTest.git
+   8977fde..3336821  main -> main
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git push
+Everything up-to-date
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>get status
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 1863-FF1A
+
+ Directory of C:\Users\mukund\Desktop\Help\githubPracticalTest
+
+10/21/2021  06:31 AM    <DIR>          .
+10/21/2021  06:31 AM    <DIR>          ..
+10/21/2021  07:06 AM               156 Agama.txt
+10/21/2021  06:31 AM                35 PracticeGithub.txt
+               2 File(s)            191 bytes
+               2 Dir(s)  782,711,087,104 bytes free
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git add Agama.txt
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git commit -m" Another Revision"
+[main 1be733f]  Another Revision
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mukund-k/githubPracticalTest.git
+   3336821..1be733f  main -> main
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git commit -m" Another Revision"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git add Agama.txt
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>^L
+C:\Users\mukund\Desktop\Help\githubPracticalTest>clean
+'clean' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git commit -m"Trying"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Manythings.txt
+        WhichWorks.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git add Manaythings.txt, WhichWorks.txt
+fatal: pathspec 'Manaythings.txt,' did not match any files
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git commit -m"Manyfiles Comitting at time"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Manythings.txt
+        WhichWorks.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git add Manythings.txt WhichWorks.txt
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Manythings.txt
+        new file:   WhichWorks.txt
+
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git commit -m"Hurry"
+[main d5bada4] Hurry
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Manythings.txt
+ create mode 100644 WhichWorks.txt
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 430 bytes | 215.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/mukund-k/githubPracticalTest.git
+   1be733f..d5bada4  main -> main
+
+C:\Users\mukund\Desktop\Help\githubPracticalTest>

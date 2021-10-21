@@ -1,1 +1,3 @@
-I want try manythings which work
+I want try manythings which work.
+I have downloaded Java Jdk and Eclipse in my computer
+I also need to download Mavern.
